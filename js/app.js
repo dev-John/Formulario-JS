@@ -6,23 +6,22 @@ var qstList = [];
 var dicionario = [];
 
 $(document).ready(function(){
-    // document.getElementById('pag1').style.backgroundColor = 'black';
-
     quizQst = document.getElementById('quizQuestion');
     let ajax = new XMLHttpRequest();
     ajax.onreadystatechange = function() {
         if(ajax.readyState == 4 && this.status ==200){
             xml = ajax.responseXML;
-            let tam = xml.documentElement.children.length
 
-            for(let i = 0; i < tam; i++){
-                let titulo = xml.documentElement.children[i].children[0].innerHTML; //pega o título
-                let alternativaA = xml.documentElement.children[i].children[1].innerHTML; //pega a questao 1
-                let alternativaB = xml.documentElement.children[i].children[2].innerHTML; //pega a questao 2
-                let alternativaC = xml.documentElement.children[i].children[3].innerHTML; //pega a questao 3
-                let alternativaD = xml.documentElement.children[i].children[4].innerHTML; //pega a questao 4
-                let alternativaE = xml.documentElement.children[i].children[5].innerHTML; //pega a questao 4
-                let correta = xml.documentElement.children[i].children[6].innerHTML; //pega a questão correta
+            numeros = sortQuestions(xml);
+
+            for(let i = 0; i < 10; i++){
+                let titulo = xml.documentElement.children[numeros[i]].children[0].innerHTML; //pega o título
+                let alternativaA = xml.documentElement.children[numeros[i]].children[1].innerHTML; //pega a questao 1
+                let alternativaB = xml.documentElement.children[numeros[i]].children[2].innerHTML; //pega a questao 2
+                let alternativaC = xml.documentElement.children[numeros[i]].children[3].innerHTML; //pega a questao 3
+                let alternativaD = xml.documentElement.children[numeros[i]].children[4].innerHTML; //pega a questao 4
+                let alternativaE = xml.documentElement.children[numeros[i]].children[5].innerHTML; //pega a questao 4
+                let correta = xml.documentElement.children[numeros[i]].children[6].innerHTML; //pega a questão correta
                 obj = {
                     Titulo: titulo,
                     AlternativaA: alternativaA,
@@ -75,7 +74,6 @@ function selectThis(item){
     
         updateOrInsert(obj);
     }
-    console.log(dicionario)
 
     if(element.style.backgroundColor == 'red'){
         element.style.backgroundColor = '#4CAF50';
@@ -121,8 +119,16 @@ function resetColors(){
         document.getElementById('pag' + i).style.color = 'black' 
     }
 }
-    // let teste = document.getElementById('pag1');
-    // console.log(dicionario);
-    
-    //o segredo é pegar o id do item clicado, o id da pagina atual
-    //e linka-los atraves de um JSON chave/valor
+
+function sortQuestions(xml){
+    let numeros = [];
+
+    while(numeros.length < 10){
+        let random = Math.floor(Math.random() * 50);
+        if(numeros.indexOf(random) == -1){
+            numeros.push(random);
+        }
+    }
+
+    return numeros;
+}
