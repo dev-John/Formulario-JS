@@ -71,20 +71,20 @@ function selectThis(item){
         Resp: element.id
     }
 
-    updateOrInsert(obj);
+    updateOrInsert(obj); //Insere ou atualiza a resposta no JSON
 
 
     if(element.style.backgroundColor == 'red'){
         element.style.backgroundColor = '#4CAF50';
-        removeFromDictionary(element.id);
+        removeFromDictionary(element.id); // Retira do JSON pois o usuario retirou a resposta
     }
     else
     {
-        resetQuestionaryColors();
+        resetQuestionaryColors(); //Reseta as cores do questionário (cor que identifica resposta)
         element.style.backgroundColor = 'red';
     }
 
-    checkQuestions();
+    checkQuestions(); //Verifica se todas as questões foram respondidas
 }
 
 function updateOrInsert(obj){

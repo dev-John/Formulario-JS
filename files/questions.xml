@@ -154,130 +154,130 @@
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
+        <text>Qual tag é utilizada para fazer uma divisória horizontal?</text>
+        <answer>hr</answer>
+        <answer>br</answer>
+        <answer>div</answer>
+        <answer>hb</answer>
+        <answer>dh</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>Para que haja uma animação que muda de forma gradual, em CSS, qual função utilizamos?</text>
+        <answer>@media</answer>
+        <answer>@keyframes</answer>
+        <answer>@import</answer>
+        <answer>@font-face</answer>
+        <answer>@charset</answer>
+        <correct>B</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Qual o significado de XML?</text>
-        <answer>X-Markup Language</answer>
-        <answer>Extra Modern Link</answer>
-        <answer>Example Markup Language</answer>
-        <answer>Extensible Markup Language</answer>
-        <answer>xxxxx</answer>
-        <correct>D</correct>
-    </question>
-    <question>
-        <text>Quem é o mantenedor dos padrões Web atualmente?</text>
-        <answer>Google</answer>
-        <answer>Mozilla</answer>
-        <answer>World Wide Web Consortium (W3C)</answer>
-        <answer>Microsoft</answer>
-        <answer>xxxxx</answer>
+        <text>Qual propriedade CSS é utilizada para ditar o tempo da execução de uma animação?</text>
+        <answer>clip</answer>
+        <answer>direction</answer>
+        <answer>animation-duration</answer>
+        <answer>display</answer>
+        <answer>mix-diplay-mode</answer>
         <correct>C</correct>
     </question>
     <question>
-        <text>Qual o significado de HTML?</text>
-        <answer>Hyper Text Markup Language</answer>
-        <answer>Hyperlinks and Text Markup Language</answer>
-        <answer>Home Tool Markup Language</answer>
-        <answer>Hyper Text Markup Links</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Qual o significado de XML?</text>
-        <answer>X-Markup Language</answer>
-        <answer>Extra Modern Link</answer>
-        <answer>Example Markup Language</answer>
-        <answer>Extensible Markup Language</answer>
-        <answer>xxxxx</answer>
+        <text>Com qual das seguintes expressões, é possível deixar o elemento em questão "transparente"?</text>
+        <answer>filter=> opacity=100</answer>
+        <answer>transparent=70</answer>
+        <answer>invisible=80</answer>
+        <answer>filter: alpha(opacity=100);</answer>
+        <answer>transparency=100</answer>
         <correct>D</correct>
+    </question>
+    <question>
+        <text>O CSS Tansform é:</text>
+        <answer>uma tag que possibilita inverter um elemento.</answer>
+        <answer>um método que permite o JavaScript transformar um paramêtro e um elemento HTML.</answer>
+        <answer>um método que permite o CSS transformar um paramêtro e um elemento HTML.</answer>
+        <answer>uma tag que permite alterar um método em JavaScript em uma classe CSS.</answer>
+        <answer>uma tag que permite que um elemento mude de forma, tamanho e posição.</answer>
+        <correct>E</correct>
+    </question>
+    <question>
+        <text>Sobre a propriedade Class, é correto afirmar.</text>
+        <answer>Sua utilização é adequada com pretende-se atribuir a mesma regra de estilização para mais de um elemento, com a mesma tag semântica, em um documento.</answer>
+        <answer>É utilizada para criar classes Javascript</answer>
+        <answer>Foi introduzida na ultima versão do XML</answer>
+        <answer>É mais geral que utilizar as tags como estilização.</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre a propriedade ID, é correto afimar.</text>
+        <answer>Não é uma boa prática criar IDs únicos</answer>
+        <answer>Não pode ser criado em tempo de execução</answer>
+        <answer>É o que liga o Javascript aos arquivos do sistema</answer>
+        <answer>É a forma mais generalizada de se estilizar elementos</answer>
+        <answer>Sua utilização é adequada quando pretende-se restringir certas regras de estilização a um determinado elemento.</answer>
+        <correct>E</correct>
+    </question>
+    <question>
+        <text>Suponha um botão na cor verde que ao posicionar o ponteiro do mouse fique encima dele, sem realizar nenhuma ação de clique, o mesmo muda sua cor para cinza. Qual classe é utilizada?</text>
+        <answer>:smooth</answer>
+        <answer>:click</answer>
+        <answer>:hover</answer>
+        <answer>:transition</answer>
+        <answer>:active</answer>
+        <correct>C</correct>
+    </question>
+    <question>
+        <text>Qual propriedade CSS é usada para a mudança de cor do texto de um elemento?</text>
+        <answer>color</answer>
+        <answer>borderColor</answer>
+        <answer>display</answer>
+        <answer>padding</answer>
+        <answer>text-decoration</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Qual o modo correto de escrever um array no JavaScript?</text>
+        <answer>var colors;</answer>
+        <answer>var colors();</answer>
+        <answer>var colors = ["red", "green", "blue"];</answer>
+        <answer>var colors = ("red", "green", "blue");</answer>
+        <answer>var colors = '"red", "green", "blue"';</answer>
+        <correct>C</correct>
+    </question>
+    <question>
+        <text>Qual a tag para a criação de um hyperlink?</text>
+        <answer>ul</answer>
+        <answer>div</answer>
+        <answer>br</answer>
+        <answer>a</answer>
+        <answer>ol</answer>
+        <correct>D</correct>
+    </question>
+    <question>
+        <text>Como você encontra o número com maior valor entre x e y?</text>
+        <answer>Math.fill(x, y)</answer>
+        <answer>Math.round(x, y)</answer>
+        <answer>Math.findMax(x, y)</answer>
+        <answer>Math.min(x, y)</answer>
+        <answer>Math.max(x, y)</answer>
+        <correct>E</correct>
+    </question>
+    <question>
+        <text>Qual a tag para deixar um texto em negrito?</text>
+        <answer>h1</answer>
+        <answer>br</answer>
+        <answer>b</answer>
+        <answer>black</answer>
+        <answer>negr</answer>
+        <correct>C</correct>
+    </question>
+    <question>
+        <text>Como escrever um IF em JavaScript?</text>
+        <answer>if(i==2)</answer>
+        <answer>if i == 2;</answer>
+        <answer>if(i = 2)</answer>
+        <answer>if(i.equals(2))</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>A</correct>
     </question>
     <question>
         <text>Quem é o mantenedor dos padrões Web atualmente?</text>
