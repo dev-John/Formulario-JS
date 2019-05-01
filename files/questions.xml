@@ -6,7 +6,7 @@
         <answer>Extra Modern Link</answer>
         <answer>Example Markup Language</answer>
         <answer>Extensible Markup Language</answer>
-        <answer>xxxxx</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>D</correct>
     </question>
     <question>
@@ -15,7 +15,7 @@
         <answer>Mozilla</answer>
         <answer>World Wide Web Consortium (W3C)</answer>
         <answer>Microsoft</answer>
-        <answer>xxxxx</answer>
+        <answer>Amazon</answer>
         <correct>C</correct>
     </question>
     <question>
@@ -24,133 +24,133 @@
         <answer>Hyperlinks and Text Markup Language</answer>
         <answer>Home Tool Markup Language</answer>
         <answer>Hyper Text Markup Links</answer>
-        <answer>xxxxx</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
+        <text>No CSS, qual a propriedade da cor do fundo?</text>
+        <answer>background-color</answer>
+        <answer>color-all</answer>
+        <answer>html-color</answer>
+        <answer>colorful-prop</answer>
+        <answer>Não existe propriedade para cor de fundo</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>Qual destes abre um link em uma nova aba do navegador?</text>
+        <answer>href="url"</answer>
+        <answer>target="_blank"</answer>
+        <answer>target="new"</answer>
+        <answer>open="chrome.new-tab"</answer>
+        <answer>Nenhum das anteriores</answer>
+        <correct>B</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>Qual destes é utilizado para criar listas numeradas?</text>
+        <answer>list</answer>
+        <answer>ul</answer>
+        <answer>ol</answer>
+        <answer>dl</answer>
+        <answer>Nenhum das anteriores</answer>
+        <correct>C</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>O que é o Javascript?</text>
+        <answer>Uma versão do Java para web</answer>
+        <answer>Uma linguagem de marcação</answer>
+        <answer>Linguagem de estilização de telas</answer>
+        <answer>Uma linguagem de programação e banco de dados</answer>
+        <answer>Uma linguagem de programação</answer>
+        <correct>E</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Qual o significado de XML?</text>
-        <answer>X-Markup Language</answer>
-        <answer>Extra Modern Link</answer>
-        <answer>Example Markup Language</answer>
-        <answer>Extensible Markup Language</answer>
-        <answer>xxxxx</answer>
+        <text>Qual o comando correto para alterar o conteúdo do HTML de um elemento 'p' em Javascript?</text>
+        <answer>p.text = "Novo texto";</answer>
+        <answer>p.add("Novo texto");</answer>
+        <answer>p.push("Novo texto");</answer>
+        <answer>document.getElementById('id').innerHTML = "Novo texto";</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>D</correct>
     </question>
     <question>
-        <text>Quem é o mantenedor dos padrões Web atualmente?</text>
-        <answer>Google</answer>
-        <answer>Mozilla</answer>
-        <answer>World Wide Web Consortium (W3C)</answer>
-        <answer>Microsoft</answer>
-        <answer>xxxxx</answer>
+        <text>Qual o local correto para inserir o Javascript?</text>
+        <answer>Na tag 'script'</answer>
+        <answer>Na tag 'javascript'</answer>
+        <answer>Na tag 'scripting'</answer>
+        <answer>O javascript só pode ser chamado via API</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Qual a maneira correta de se referenciar um arquivo chamado "arq.js"?</text>
+        <answer>name="arq.js"</answer>
+        <answer>href="arq.js"</answer>
+        <answer>src="arq.js"</answer>
+        <answer>arq="arq.js"</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>C</correct>
     </question>
     <question>
-        <text>Qual o significado de HTML?</text>
-        <answer>Hyper Text Markup Language</answer>
-        <answer>Hyperlinks and Text Markup Language</answer>
-        <answer>Home Tool Markup Language</answer>
-        <answer>Hyper Text Markup Links</answer>
-        <answer>xxxxx</answer>
+        <text>Como se escreve "Hello World" em um alert box?</text>
+        <answer>alert("Hello World")</answer>
+        <answer>msgShow("Hello World")</answer>
+        <answer>msgBox("Hello World")</answer>
+        <answer>alertBox("Hello World")</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
+        <text>Como é criada uma função em Javascript?</text>
+        <answer>funcao1[];</answer>
+        <answer>method funcao1();</answer>
+        <answer>function = new funcao1();</answer>
+        <answer>O Javascript não possui funções</answer>
+        <answer>function funcao1(){}</answer>
+        <correct>E</correct>
+    </question>
+    <question>
+        <text>Como é chamada uma função em Javascript?</text>
+        <answer>call funcao1();</answer>
+        <answer>call.funcao1();</answer>
+        <answer>funcao1();</answer>
+        <answer>funcao1 = new Function();</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>C</correct>
+    </question>
+    <question>
+        <text>O Javascript é uma linguagem:</text>
+        <answer>Fortemente tipada</answer>
+        <answer>Fracamente tipada</answer>
+        <answer>Procedural</answer>
+        <answer>Estrutural</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>O que significa CSS?</text>
+        <answer>Creative Style Sheets</answer>
+        <answer>Cascading Style Sheets</answer>
+        <answer>Computer Style Sheets</answer>
+        <answer>Colorful Style Sheets</answer>
+        <answer>Cascading Styling Sheets</answer>
+        <correct>B</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>Onde deve ficar o CSS ao escreve-lo na mesma página HTML?</text>
+        <answer>'body'</answer>
+        <answer>'script'</answer>
+        <answer>'head'</answer>
+        <answer>No fim do documento</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>C</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
+        <text>Qual tag define um CSS interno?</text>
+        <answer>'css'</answer>
+        <answer>'script'</answer>
+        <answer>'cascading'</answer>
+        <answer>'style'</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>A</correct>
     </question>
     <question>

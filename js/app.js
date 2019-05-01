@@ -43,8 +43,9 @@ $(document).ready(function(){
 function fulfillPages(index){
     globalIndex = index;
 
-    resetColors();
-
+    resetQuestionaryColors();
+    resetPaginatorColors('white');
+    
     document.getElementById('pag' + index).style.backgroundColor = '#4CAF50'
     document.getElementById('pag' + index).style.color = 'white'
 
@@ -64,27 +65,26 @@ function fulfillPages(index){
 
 function selectThis(item){
     let element = document.getElementById(item.id);
-    let deleted = false;
 
-    if(!deleted){
-        obj = {
-            Aba: globalIndex,
-            Resp: element.id
-        }
-    
-        updateOrInsert(obj);
+    obj = {
+        Aba: globalIndex,
+        Resp: element.id
     }
+
+    updateOrInsert(obj);
+
 
     if(element.style.backgroundColor == 'red'){
         element.style.backgroundColor = '#4CAF50';
-        deleted = true;
         removeFromDictionary(element.id);
     }
     else
     {
-        resetColors();
+        resetQuestionaryColors();
         element.style.backgroundColor = 'red';
     }
+
+    checkQuestions();
 }
 
 function updateOrInsert(obj){
@@ -107,15 +107,17 @@ function removeFromDictionary(item){
     dicionario[globalIndex].Resp = "";
 }
 
-function resetColors(){
+function resetQuestionaryColors(){
     document.getElementById('alternativaA').style.backgroundColor = "#4CAF50"
     document.getElementById('alternativaB').style.backgroundColor = "#4CAF50"
     document.getElementById('alternativaC').style.backgroundColor = "#4CAF50"
     document.getElementById('alternativaD').style.backgroundColor = "#4CAF50"
     document.getElementById('alternativaE').style.backgroundColor = "#4CAF50"
+}
 
+function resetPaginatorColors(color){    
     for(let i = 0; i < 10; i++){
-        document.getElementById('pag' + i).style.backgroundColor = 'white' 
+        document.getElementById('pag' + i).style.backgroundColor = color;
         document.getElementById('pag' + i).style.color = 'black' 
     }
 }
@@ -131,4 +133,15 @@ function sortQuestions(xml){
     }
 
     return numeros;
+}
+
+function checkQuestions(){
+    console.log(dicionario);
+    let formCompleto = true;
+    for(i = 0; i < 10; i++){
+        if(dicionario[i].Resp == "") formCompleto = false; 
+    }
+
+    if(formCompleto) document.getElementById('btnProx').style.display = 'block';
+    else document.getElementById('btnProx').style.display = 'none';
 }
