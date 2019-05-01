@@ -2,6 +2,7 @@ var xml;
 var opt = document.getElementById('options');
 var quizQst;
 var qstList = [];
+var dicionario = [];
 
 $(document).ready(function(){
     document.getElementById('pag1').style.backgroundColor = 'black';
@@ -41,30 +42,22 @@ function fulfillPages(index, a){
     console.log(document.getElementById('options'));
     console.log(a);
 
-    // let ul = document.getElementById('options');
-    // let li1 = document.createElement('li');
-    // let li2 = document.createElement('li');
-    // let li3 = document.createElement('li');
-    // let li4 = document.createElement('li');
-
-    // li1.appendChild(document.createTextNode(qstList[index].Questao1));
-    // li2.appendChild(document.createTextNode(qstList[index].Questao2));
-    // li3.appendChild(document.createTextNode(qstList[index].Questao3));
-    // li4.appendChild(document.createTextNode(qstList[index].Questao4));
-    
-    // ul.appendChild(li1);
-    // ul.appendChild(li2);
-    // ul.appendChild(li3);
-    // ul.appendChild(li4);
-
+    quizQst.innerHTML = qstList[index].Titulo;
     document.getElementById('questao1').innerHTML = qstList[index].Questao1;
     document.getElementById('questao2').innerHTML = qstList[index].Questao2;
     document.getElementById('questao3').innerHTML = qstList[index].Questao3;
     document.getElementById('questao4').innerHTML = qstList[index].Questao4;
+}
 
-    quizQst.innerHTML = qstList[index].Titulo;
-    // $("ul").append($("<li>").text(qstList[index].Questao1));
-    // $("ul").append($("<li>").text(qstList[index].Questao2));
-    // $("ul").append($("<li>").text(qstList[index].Questao3));
-    // $("ul").append($("<li>").text(qstList[index].Questao4)); 
+function selectThis(item){
+    let element = document.getElementById(item.id);
+    console.log(element.style.backgroundColor);
+    
+    if(element.style.backgroundColor == 'red'){
+        element.style.backgroundColor = '#4CAF50';
+    }
+    else
+        element.style.backgroundColor = 'red';
+    //o segredo é pegar o id do item clicado, o id da pagina atual
+    //e linka-los atraves de um JSON chave/valor
 }
