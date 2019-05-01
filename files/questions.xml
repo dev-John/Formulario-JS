@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <question>
+        <text>Qual o significado de XML?</text>
+        <answer>X-Markup Language</answer>
+        <answer>eXtra Modern Link</answer>
+        <answer>Example Markup Language</answer>
+        <answer>eXtensible Markup Language</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Qual a síntaxe correta de JavaScript para mudar o conteúdo do HTML abaixo?</text>
+        <answer>scripting</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre o JSON responda...</text>
+        <answer>Resposta1</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre o JSON responda...</text>
+        <answer>Resposta1</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre o JSON responda...</text>
+        <answer>Resposta1</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre o JSON responda...</text>
+        <answer>Resposta1</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre o JSON responda...</text>
+        <answer>Resposta1</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre o JSON responda...</text>
+        <answer>Resposta1</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre o JSON responda...</text>
+        <answer>Resposta1</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Sobre o JSON responda...</text>
+        <answer>Resposta1</answer>
+        <answer>Resposta2</answer>
+        <answer>Resposta3</answer>
+        <answer>Resposta4</answer>
+        <correct>A</correct>
+    </question>
+</questions>

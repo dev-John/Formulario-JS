@@ -1,0 +1,105 @@
+p {
+    padding: 3px;
+}
+
+h6 {
+    padding: 3px;
+}
+
+.father-container {
+    margin-top: 10%;
+}
+
+#left-container {
+    margin-left: 10%;
+    float: left;
+    border: 1px solid black;
+    height: 150px;
+}
+
+#main-container {
+    width: 30%;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#right-container {
+    margin-left: 12%;
+    float: right;
+}
+
+html {
+  font-family: 'Lato';
+  margin: 20px auto;
+  max-width: 600px;
+  font-size: 1.25em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 10px;
+  margin: 5px 0;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  background: #4CAF50;
+}
+
+li:hover{
+  background: rgb(107, 109, 106);
+}
+
+.hint {
+  margin-right: 30px;
+  display: inline-block;
+} 
+
+.paginator {
+  display: inline-block;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.paginator a {
+  color: black;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  transition: background-color .3s;
+  width: 10%;
+  text-align: center
+}
+
+.paginator a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.paginator a:hover:not(.active) {background-color: #ddd;}
+
+
+:root {
+  --borderWidth: 7px;
+  --height: 24px;
+  --width: 12px;
+  --borderColor: #78b13f;
+}
+
+body {
+  text-align: inherit;
+}
+
+.check {
+  margin-left: 3%;
+  display: inline-block;
+  transform: rotate(45deg);
+  height: var(--height);
+  width: var(--width);
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
+}
