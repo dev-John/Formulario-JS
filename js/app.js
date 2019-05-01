@@ -17,17 +17,19 @@ $(document).ready(function(){
 
             for(let i = 0; i < tam; i++){
                 let titulo = xml.documentElement.children[i].children[0].innerHTML; //pega o título
-                let questao1 = xml.documentElement.children[i].children[1].innerHTML; //pega a questao 1
-                let questao2 = xml.documentElement.children[i].children[2].innerHTML; //pega a questao 2
-                let questao3 = xml.documentElement.children[i].children[3].innerHTML; //pega a questao 3
-                let questao4 = xml.documentElement.children[i].children[4].innerHTML; //pega a questao 4
-                let correta = xml.documentElement.children[i].children[5].innerHTML; //pega a questão correta
+                let alternativaA = xml.documentElement.children[i].children[1].innerHTML; //pega a questao 1
+                let alternativaB = xml.documentElement.children[i].children[2].innerHTML; //pega a questao 2
+                let alternativaC = xml.documentElement.children[i].children[3].innerHTML; //pega a questao 3
+                let alternativaD = xml.documentElement.children[i].children[4].innerHTML; //pega a questao 4
+                let alternativaE = xml.documentElement.children[i].children[5].innerHTML; //pega a questao 4
+                let correta = xml.documentElement.children[i].children[6].innerHTML; //pega a questão correta
                 obj = {
                     Titulo: titulo,
-                    Questao1: questao1,
-                    Questao2: questao2,
-                    Questao3: questao3,
-                    Questao4: questao4,
+                    AlternativaA: alternativaA,
+                    AlternativaB: alternativaB,
+                    AlternativaC: alternativaC,
+                    AlternativaD: alternativaD,
+                    AlternativaE: alternativaE,
                     Correta: correta
                 }
                 qstList.push(obj);                
@@ -54,10 +56,11 @@ function fulfillPages(index){
     }
 
     quizQst.innerHTML = qstList[index].Titulo;
-    document.getElementById('questao1').innerHTML = qstList[index].Questao1;
-    document.getElementById('questao2').innerHTML = qstList[index].Questao2;
-    document.getElementById('questao3').innerHTML = qstList[index].Questao3;
-    document.getElementById('questao4').innerHTML = qstList[index].Questao4;
+    document.getElementById('alternativaA').innerHTML = qstList[index].AlternativaA;
+    document.getElementById('alternativaB').innerHTML = qstList[index].AlternativaB;
+    document.getElementById('alternativaC').innerHTML = qstList[index].AlternativaC;
+    document.getElementById('alternativaD').innerHTML = qstList[index].AlternativaD;
+    document.getElementById('alternativaE').innerHTML = qstList[index].AlternativaE;
 }
 
 function selectThis(item){
@@ -107,10 +110,11 @@ function removeFromDictionary(item){
 }
 
 function resetColors(){
-    document.getElementById('questao1').style.backgroundColor = "#4CAF50"
-    document.getElementById('questao2').style.backgroundColor = "#4CAF50"
-    document.getElementById('questao3').style.backgroundColor = "#4CAF50"
-    document.getElementById('questao4').style.backgroundColor = "#4CAF50"
+    document.getElementById('alternativaA').style.backgroundColor = "#4CAF50"
+    document.getElementById('alternativaB').style.backgroundColor = "#4CAF50"
+    document.getElementById('alternativaC').style.backgroundColor = "#4CAF50"
+    document.getElementById('alternativaD').style.backgroundColor = "#4CAF50"
+    document.getElementById('alternativaE').style.backgroundColor = "#4CAF50"
 
     for(let i = 0; i < 10; i++){
         document.getElementById('pag' + i).style.backgroundColor = 'white' 
