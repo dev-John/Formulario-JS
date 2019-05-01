@@ -3,25 +3,25 @@
     <question>
         <text>Qual o significado de XML?</text>
         <answer>X-Markup Language</answer>
-        <answer>eXtra Modern Link</answer>
+        <answer>Extra Modern Link</answer>
         <answer>Example Markup Language</answer>
-        <answer>eXtensible Markup Language</answer>
-        <correct>A</correct>
+        <answer>Extensible Markup Language</answer>
+        <correct>D</correct>
     </question>
     <question>
-        <text>Qual a síntaxe correta de JavaScript para mudar o conteúdo do HTML abaixo?</text>
-        <answer>scripting</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <correct>A</correct>
+        <text>Quem é o mantenedor dos padrões Web atualmente?</text>
+        <answer>Google</answer>
+        <answer>Mozilla</answer>
+        <answer>World Wide Web Consortium (W3C)</answer>
+        <answer>Microsoft</answer>
+        <correct>C</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
+        <text>Qual o significado de HTML?</text>
+        <answer>Hyper Text Markup Language</answer>
+        <answer>Hyperlinks and Text Markup Language</answer>
+        <answer>Home Tool Markup Language</answer>
+        <answer>Hyper Text Markup Links</answer>
         <correct>A</correct>
     </question>
     <question>
