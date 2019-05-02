@@ -7,7 +7,15 @@ h6 {
 }
 
 .father-container {
-    margin-top: 10%;
+  margin-top: 10%;
+}
+
+.results {
+  margin-top: 10%;
+}
+
+.tip {
+  display: block;
 }
 
 #left-container {
@@ -120,7 +128,7 @@ body {
   cursor: pointer;
 }
 
-.button-prox {
+.button-btn {
   background-color: white; 
   color: black; 
   border: 2px solid #4CAF50;
