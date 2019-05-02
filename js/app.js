@@ -193,19 +193,19 @@ function showResults(){
         document.getElementById('tip').style.display = 'block';
         if(acertosTentativa1 < 5) document.getElementById('tip').innerText = 'Você precisa estudar mais.';
         if(acertosTentativa1 >= 5 && acertosTentativa1 < 8) document.getElementById('tip').innerText = 'Nada mal.';
-        if(acertosTentativa1 > 8) document.getElementById('tip').innerText = 'Excelente, parabéns!.';
+        if(acertosTentativa1 >= 8) document.getElementById('tip').innerText = 'Excelente, parabéns!.';
     }
     if(tentativaAtual == 2){
         document.getElementById('tip').style.display = 'block';
         if(acertosTentativa2 < 5) document.getElementById('tip').innerHTML = 'Você precisa estudar mais.';
         if(acertosTentativa2 >= 5 && acertosTentativa2 < 8) document.getElementById('tip').innerHTML = 'Nada mal.';
-        if(acertosTentativa2 > 8) document.getElementById('tip').innerHTML = 'Excelente, parabéns!.';
+        if(acertosTentativa2 >= 8) document.getElementById('tip').innerHTML = 'Excelente, parabéns!.';
     }
     if(tentativaAtual == 3){
         document.getElementById('tip').style.display = 'block';
         if(acertosTentativa3 < 5) document.getElementById('tip').innerHTML = 'Você precisa estudar mais.';
         if(acertosTentativa3 >= 5 && acertosTentativa3 < 8) document.getElementById('tip').innerHTML = 'Nada mal.';
-        if(acertosTentativa3 > 8) document.getElementById('tip').innerHTML = 'Excelente, parabéns!.';
+        if(acertosTentativa3 >= 8) document.getElementById('tip').innerHTML = 'Excelente, parabéns!.';
     }
 
     if(tentativaAtual == 3){
