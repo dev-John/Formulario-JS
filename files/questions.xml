@@ -280,174 +280,174 @@
         <correct>A</correct>
     </question>
     <question>
-        <text>Quem é o mantenedor dos padrões Web atualmente?</text>
-        <answer>Google</answer>
-        <answer>Mozilla</answer>
-        <answer>World Wide Web Consortium (W3C)</answer>
-        <answer>Microsoft</answer>
-        <answer>xxxxx</answer>
+        <text>Qual o conteúdo de uma HTML Table?</text>
+        <answer>td; tr; th;</answer>
+        <answer>column</answer>
+        <answer>tuple</answer>
+        <answer>ty</answer>
+        <answer>tc</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Para que serve a tag "iframe"?</text>
+        <answer>Para criar elementos dinâmicos</answer>
+        <answer>Para dar estilização à pagina</answer>
+        <answer>Para embutir uma página dentro de outra</answer>
+        <answer>Para dar à pagina compatibilidade com iPhones</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>C</correct>
     </question>
     <question>
-        <text>Qual o significado de HTML?</text>
-        <answer>Hyper Text Markup Language</answer>
-        <answer>Hyperlinks and Text Markup Language</answer>
-        <answer>Home Tool Markup Language</answer>
-        <answer>Hyper Text Markup Links</answer>
-        <answer>xxxxx</answer>
+        <text>Qual das seguintes alternativas se encaixa na frase "... é usado para criar um alerta que permite a inserção de algum dado"?</text>
+        <answer>printf</answer>
+        <answer>alert</answer>
+        <answer>System.out.println</answer>
+        <answer>println</answer>
+        <answer>prompt</answer>
+        <correct>E</correct>
+    </question>
+    <question>
+        <text>Qual é a forma correta de referenciar um CSS externo no HTML?</text>
+        <answer>link="mystyle.css"</answer>
+        <answer>link rel="stylesheet" type="text/css" href="mystyle.css"</answer>
+        <answer>externalValue="mystyle.css"</answer>
+        <answer>css="./mystyle.css"</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>B</correct>
+    </question>
+    <question>
+        <text>Qual a região correta de um documento HTML para se referenciar um CSS externo?</text>
+        <answer>head</answer>
+        <answer>body</answer>
+        <answer>footer</answer>
+        <answer>outer</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>Para que serve a tag "br"?</text>
+        <answer>Idioma do Brasil</answer>
+        <answer>Quebrar linha</answer>
+        <answer>Criar tags dinâmicas</answer>
+        <answer>Criar texto em negrito</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>B</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>Qual biblioteca de código aberto é utilizada para facilitar o uso do JavaScript?</text>
+        <answer>Bootstrap</answer>
+        <answer>JQuery</answer>
+        <answer>PHP</answer>
+        <answer>Angular</answer>
+        <answer>Node.JS</answer>
+        <correct>B</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Qual o significado de XML?</text>
-        <answer>X-Markup Language</answer>
-        <answer>Extra Modern Link</answer>
-        <answer>Example Markup Language</answer>
-        <answer>Extensible Markup Language</answer>
-        <answer>xxxxx</answer>
+        <text>Qual a biblioteca amplamente utilizada para facilitar o uso de componentes CSS</text>
+        <answer>React</answer>
+        <answer>Node.JS</answer>
+        <answer>JQuery</answer>
+        <answer>Bootstrap</answer>
+        <answer>PHP</answer>
         <correct>D</correct>
     </question>
     <question>
-        <text>Quem é o mantenedor dos padrões Web atualmente?</text>
-        <answer>Google</answer>
-        <answer>Mozilla</answer>
-        <answer>World Wide Web Consortium (W3C)</answer>
-        <answer>Microsoft</answer>
-        <answer>xxxxx</answer>
+        <text>O sistema de grids do Bootstrap é baseado em quantas colunas?</text>
+        <answer>9</answer>
+        <answer>3</answer>
+        <answer>6</answer>
+        <answer>12</answer>
+        <answer>2</answer>
+        <correct>D</correct>
+    </question>
+    <question>
+        <text>Qual a classe Bootstrap que indica uma ação de sucesso?</text>
+        <answer>.text-info</answer>
+        <answer>.text-success</answer>
+        <answer>.text-primary</answer>
+        <answer>.text-warning</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>B</correct>
+    </question>
+    <question>
+        <text>Qual a classe Bootstrap que indica uma ação "perigosa"?</text>
+        <answer>.text-danger</answer>
+        <answer>.text-primary</answer>
+        <answer>.text-warning</answer>
+        <answer>.text-boom</answer>
+        <answer>.text-loop</answer>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Qual a classe Bootstrap que indica um aviso?</text>
+        <answer>.red-icon</answer>
+        <answer>.text-fly</answer>
+        <answer>.text-warning</answer>
+        <answer>.text-aviso</answer>
+        <answer>.text-danger</answer>
         <correct>C</correct>
     </question>
     <question>
-        <text>Qual o significado de HTML?</text>
-        <answer>Hyper Text Markup Language</answer>
-        <answer>Hyperlinks and Text Markup Language</answer>
-        <answer>Home Tool Markup Language</answer>
-        <answer>Hyper Text Markup Links</answer>
-        <answer>xxxxx</answer>
+        <text>Qual o símbolo utilizado pela biblioteca JQuery como atalho?</text>
+        <answer>$</answer>
+        <answer>?</answer>
+        <answer>%</answer>
+        <answer>!</answer>
+        <answer>@</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
+        <text>O que o seguinte seletor JQuery seleciona? $('div')</text>
+        <answer>Os elementos que não são div</answer>
+        <answer>Os elementos div que tem $</answer>
+        <answer>O primeiro elemento div</answer>
+        <answer>Todos os elementos table</answer>
+        <answer>Todos os elemento div</answer>
+        <correct>E</correct>
+    </question>
+    <question>
+        <text>Onde roda o JQuery?</text>
+        <answer>Cliente</answer>
+        <answer>Servidor</answer>
+        <answer>Localhost</answer>
+        <answer>API JQuery</answer>
+        <answer>Nenhuma das anteriores</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
+        <text>É possível utilizar AJAX com JQuery?</text>
+        <answer>Sim</answer>
+        <answer>Não</answer>
+        <answer>É necessário uma configuração em adicional para isto</answer>
+        <answer>Apenas no localhost</answer>
+        <answer>Apenas via API</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
+        <text>O que significa 'AJAX'?</text>
+        <answer>Advantage Java and XML</answer>
+        <answer>Asynchronous Javascript and XML</answer>
+        <answer>Azure Javascript Allowing XML</answer>
+        <answer>Allow Java and XML</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>B</correct>
+    </question>
+    <question>
+        <text>O que é o AJAX?</text>
+        <answer>Um conjunto de técnicas que utiliza tecnologias como Javascript e XML para carregar informações de forma assíncrona</answer>
+        <answer>Time de futebol holandes</answer>
+        <answer>Produto de limpeza</answer>
+        <answer>Técnicas de Agile Coach</answer>
+        <answer>Metodologia de desenvolvimento de software</answer>
         <correct>A</correct>
     </question>
     <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
-    </question>
-    <question>
-        <text>Sobre o JSON responda...</text>
-        <answer>Resposta1</answer>
-        <answer>Resposta2</answer>
-        <answer>Resposta3</answer>
-        <answer>Resposta4</answer>
-        <answer>xxxxx</answer>
-        <correct>A</correct>
+        <text>O que significa trabalhar de forma assíncrona em programação?</text>
+        <answer>Um HTML sem sincronia com o Javascript</answer>
+        <answer>Processamento sem ordem definida, podendo executar a qualquer momento</answer>
+        <answer>Processamento com ordem definida</answer>
+        <answer>Consumir APIs públicas</answer>
+        <answer>Nenhuma das anteriores</answer>
+        <correct>B</correct>
     </question>
 </questions>
